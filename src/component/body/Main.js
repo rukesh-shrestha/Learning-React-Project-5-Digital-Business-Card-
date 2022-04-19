@@ -1,8 +1,12 @@
+import Image from "./Image";
+import Contain from "./Contain";
+
 function Main() {
   return (
-    <div className="container">
-      <p>Hello there!!!</p>
-    </div>
+    <>
+      <Image />
+      <Contain />
+    </>
   );
 }
 
